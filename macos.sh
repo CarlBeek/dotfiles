@@ -74,6 +74,9 @@ sudo systemsetup -setrestartfreeze on
 # Disable Notification Center and remove the menu bar icon
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
+# Allow programs from unsigned authors to be run
+sudo spctl --master-disable
+
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
