@@ -65,11 +65,12 @@ FONTS=(
   font-anonymous-pro
   font-dejavu-sans-mono-for-powerline
   font-droid-sans-mono-for-powerline
-  font-meslo-lg font-input
+  font-fira-code
   font-inconsolata font-inconsolata-for-powerline
   font-liberation-mono-for-powerline
   font-liberation-sans
   font-meslo-lg
+  font-meslo-lg font-input
   font-nixie-one
   font-office-code-pro
   font-raleway font-roboto

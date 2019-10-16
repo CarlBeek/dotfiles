@@ -14,7 +14,7 @@ plugins=(
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/carl/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="spaceship"
 HIST_STAMPS="dd/mm/yyyy"
 source $ZSH/oh-my-zsh.sh
 
