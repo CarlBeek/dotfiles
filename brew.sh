@@ -37,13 +37,12 @@ BREWS=(
     wget
     openssh
     screen
-    vim --with-override-system-vi
+    vim
     p7zip
     zopfli
     htop-osx
     unrar
     node
-    sshfs
     pyenv
     pyenv-virtualenv
 
@@ -95,7 +94,7 @@ QUICKLOOKS=(
     qlmarkdown
     qlstephen
     qlvideo
-    quicklook-csv
+    quicklook-csv --no-quarantine
     quicklook-json
     webpquicklook
 )
