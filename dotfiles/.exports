@@ -33,4 +33,4 @@ export GPG_TTY=$(tty);
 
 # git related params
 git config --global commit.gpgsign true
-git config --global core.excludesfile ~/.global_gitignore
+git config --global core.excludesfile ~/.gitignore_global
