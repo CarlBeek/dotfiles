@@ -8,6 +8,8 @@
 *.so
 *.pyc
 __pycache__/*
+.mypy_cache
+.pytest_cache
 .python-version
 Pipfile
 pipfile.lock
