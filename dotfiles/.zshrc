@@ -1,5 +1,6 @@
 plugins=(
     brew
+    cask
     git
     jsontools
     osx
@@ -14,11 +15,11 @@ plugins=(
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/carl/.oh-my-zsh"
-ZSH_THEME="spaceship"
+ZSH_THEME="robbyrussell"
 HIST_STAMPS="dd/mm/yyyy"
 source $ZSH/oh-my-zsh.sh
 
 
-for file in ~/.{path,aliases,extra,exports}; do
+for file in ~/.{path,aliases,extra}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;

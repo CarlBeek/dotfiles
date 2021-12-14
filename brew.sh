@@ -17,16 +17,36 @@ CASKS=(
     google-chrome
     firefox
 
-    zoomus
-    telegram
+    telegram-desktop-beta
+    zoom
 
     alfred
     flycut
 
+    dropbox
+    ledger-live
+    keybase
+    macpass
+    protonvpn
+    yubico-authenticator
+    yubico-yubikey-manager
+
+    calibre
+    gimp
+    inkscape
+    skim
+    spotify
     transmission
     vlc
+
+    android-file-transfer
+    balenaetcher
+    goldencheetah
+    logitech-options
+    logitech-presentation
+    synology-drive
 )
-brew cask install $CASKS
+brew install $CASKS
 
 echo "  🍺 installing " $BREWS
 BREWS=(
@@ -55,7 +75,7 @@ BREWS=(
     youtube-dl
 
     koekeishiya/formulae/skhd
-    crisidev/homebrew-chunkwm/chunkwm
+    koekeishiya/formulae/yabai
 )
 brew install $BREWS
 
